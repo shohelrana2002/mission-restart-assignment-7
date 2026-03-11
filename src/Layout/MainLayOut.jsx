@@ -1,10 +1,11 @@
-import React from "react";
-import Home from "../pages/Home";
+import Navbar from "../components/Navbar/Navbar";
+import { Outlet } from "react-router";
 
 const MainLayOut = () => {
   return (
     <div>
-      <Home />
+      <Navbar />
+      <Outlet />
     </div>
   );
 };
