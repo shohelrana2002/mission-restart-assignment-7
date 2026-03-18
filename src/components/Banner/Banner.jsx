@@ -12,7 +12,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Right side Image  */}
+      {/* Right side       ss Image  */}
       <div className="w-1/2 h-[60%]  bg-linear-to-b from-[#1c9954] to-[#39d470] relative">
         <img src="/vector1.png" alt="banner" className="w-full  h-full " />
 
