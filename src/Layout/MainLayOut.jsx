@@ -3,7 +3,7 @@ import { Outlet } from "react-router";
 
 const MainLayOut = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Navbar />
       <Outlet />
     </div>
